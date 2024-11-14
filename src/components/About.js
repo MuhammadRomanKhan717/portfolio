@@ -11,17 +11,17 @@ import "aos/dist/aos.css";
 const features = [
   {
     name: "Age:",
-    description: "18 years old",
+    description: "27 years old",
     icon: CalendarIcon,
   },
   {
     name: "Email:",
-    description: "name@example.com",
+    description: "romankhan03346869717@gmail.com",
     icon: AtSymbolIcon,
   },
   {
     name: "Location:",
-    description: "India, Earth",
+    description: "Islamabad, Pakistan",
     icon: MapPinIcon,
   },
 ];
@@ -44,23 +44,16 @@ export default function About() {
                 About Me
               </p>
               <p className="mt-6 text-lg leading-8" data-aos="fade-right">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-                suscipit lobortis nisi, consequat semper lacus tempor sit amet.
-                Sed elit orci, pretium sed velit sit amet, venenatis pretium
-                magna. Nam pharetra dictum urna, non vestibulum mauris vulputate
-                ut. Sed eros nisi, dapibus vitae consequat non, mollis et
-                tortor. Maecenas bibendum nunc eu cursus maximus. Fusce
-                ultricies ornare neque, vel varius libero euismod eget. Nulla
-                sodales blandit lacus, id maximus quam interdum in. Morbi eu
-                velit ut mi semper sollicitudin finibus aliquam nisi.
-                Pellentesque habitant morbi tristique senectus et netus et
-                malesuada fames ac turpis egestas. Ut accumsan faucibus urna vel
-                placerat. Donec euismod dui enim, tincidunt suscipit mauris
-                lacinia vel. Fusce eget risus eget leo euismod porta. Aliquam
-                dapibus sapien vitae eros pulvinar, in auctor ligula porta. Nam
-                ac porttitor risus, nec blandit nulla. Nam erat erat, venenatis
-                quis scelerisque nec, rhoncus id mi. Suspendisse molestie nibh
-                purus, quis semper tellus pulvinar eget.
+                I specialize in creating intuitive and beautiful user interfaces
+                using modern web technologies like React Native. With over 2
+                years of experience in mobile app development, I am passionate
+                about designing user experiences that make a real difference in
+                people's lives. I focus on delivering high-quality,
+                user-friendly mobile applications that provide seamless
+                interactions, solve problems, and meet the unique needs of
+                users. My goal is to blend creativity and functionality to build
+                products that users love and enjoy using." Let me know if you'd
+                like to make any changes!
               </p>
             </div>
           </div>
@@ -85,17 +78,23 @@ export default function About() {
                 data-aos="zoom-in"
               >
                 <BriefcaseIcon className="h-5 w-5 mx-auto" aria-hidden="true" />
-                <h2 className=" text-2xl text-center font-bold tracking-tight">
+                <h2 className="text-2xl text-center font-bold tracking-tight">
                   Experience
                 </h2>
                 <p className="mt-3 list-item list-inside">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  I have over 2 years of experience in mobile app development,
+                  primarily specializing in React Native.
                 </p>
                 <p className="mt-3 list-item list-inside">
-                  Vestibulum vitae augue sit amet ex laoreet euismod sed eu dui.
+                  I have worked on various projects, including eCommerce
+                  applications, profile management systems, and integration of
+                  features like notifications, background tasks, and secure
+                  credential storage.
                 </p>
                 <p className="mt-3 list-item list-inside">
-                  Fusce et leo nec elit mollis sollicitudin.
+                  I focus on building high-quality, user-friendly mobile
+                  applications that provide seamless interactions across both
+                  iOS and Android platforms.
                 </p>
               </div>
               <div
@@ -106,17 +105,39 @@ export default function About() {
                   className="h-5 w-5 mx-auto"
                   aria-hidden="true"
                 />
-                <h2 className=" text-2xl text-center font-bold tracking-tigh">
+                <h2 className=" text-2xl text-center font-bold tracking-tight">
                   Education
                 </h2>
+
                 <p className="mt-3 list-item list-inside">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  <a
+                    href="https://www.ustb.edu.pk/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Bachelor of Computer Science (Honors) - UST Bannu, KPK,
+                    Pakistan
+                  </a>
                 </p>
                 <p className="mt-3 list-item list-inside">
-                  Vestibulum vitae augue sit amet ex laoreet euismod sed eu dui.
+                  <a
+                    href="https://navttc.gov.pk/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Data Science (NAVTTC) - Peshawar, KPK, Pakistan
+                  </a>
                 </p>
+
                 <p className="mt-3 list-item list-inside">
-                  Fusce et leo nec elit mollis sollicitudin.
+                  <a
+                    href="https://technicalboard.kp.gov.pk/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Diploma in Information Technology (DIT) - Board of Technical
+                    Education, Peshawar, KPK, Pakistan
+                  </a>
                 </p>
               </div>
             </div>

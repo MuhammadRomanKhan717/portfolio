@@ -5,61 +5,108 @@ import "aos/dist/aos.css";
 
 const frontend = [
   {
-    name: "HTML/CSS",
-    value: 80,
+    name: "React Native",
+    value: 90,
     icon: CheckCircleIcon,
   },
   {
-    name: "JavaScript",
+    name: "Android Development",
     value: 70,
     icon: CheckCircleIcon,
   },
   {
-    name: "React",
+    name: "JavaScript",
     value: 80,
     icon: CheckCircleIcon,
   },
   {
-    name: "Next.js",
-    value: 60,
-    icon: CheckCircleIcon,
-  },
-  {
-    name: "TailwindCSS",
-    value: 80,
-    icon: CheckCircleIcon,
-  },
-];
-const backend = [
-  {
-    name: "NodeJS",
-    value: 30,
-    icon: CheckCircleIcon,
-  },
-  {
-    name: "Python",
+    name: "React Navigation",
     value: 75,
     icon: CheckCircleIcon,
   },
   {
-    name: "MySQL",
+    name: "Redux",
+    value: 80,
+    icon: CheckCircleIcon,
+  },
+  {
+    name: "Expo",
+    value: 80,
+    icon: CheckCircleIcon,
+  },
+  {
+    name: "React Native Testing Library",
     value: 50,
     icon: CheckCircleIcon,
   },
+
   {
-    name: "APIs",
-    value: 20,
+    name: "CodePush",
+    value: 65,
     icon: CheckCircleIcon,
   },
+];
+
+const backend = [
   {
-    name: "MongoDB",
-    value: 40,
-    icon: CheckCircleIcon,
+    name: "Redux",
+    icon: () => <i className="fa fa-redux"></i>,
+    value: 80,
   },
   {
-    name: "GraphQL",
-    value: 30,
-    icon: CheckCircleIcon,
+    name: "React Navigation",
+    icon: () => <i className="fa fa-arrow-right"></i>,
+    value: 85,
+  },
+  {
+    name: "Firebase",
+    icon: () => <i className="fa fa-fire"></i>,
+    value: 70,
+  },
+
+  {
+    name: "TypeScript",
+    icon: () => <i className="fa fa-terminal"></i>,
+    value: 90,
+  },
+
+  {
+    name: "Axios",
+    icon: () => <i className="fa fa-network-wired"></i>,
+    value: 75,
+  },
+  {
+    name: "Styled Components",
+    icon: () => <i className="fa fa-paint-brush"></i>,
+    value: 85,
+  },
+  {
+    name: "React Native Paper",
+    icon: () => <i className="fa fa-cogs"></i>,
+    value: 70,
+  },
+
+  {
+    name: "Expo",
+    icon: () => <i className="fa fa-android"></i>,
+    value: 65,
+  },
+  {
+    name: "CodePush",
+    icon: () => <i className="fa fa-refresh"></i>,
+    value: 70,
+  },
+
+  {
+    name: "Push Notifications ( OneSignal)",
+    icon: () => <i className="fa fa-bell"></i>,
+    value: 80,
+  },
+
+  {
+    name: "Lottie Animations",
+    icon: () => <i className="fa fa-spinner"></i>,
+    value: 75,
   },
 ];
 
@@ -84,7 +131,7 @@ export default function Skills() {
             <p className="text-2xl text-center font-bold mb-6">
               Frontend Development
             </p>
-            <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-6 lg:max-w-none lg:grid-cols-2 lg:gap-y-6">
+            <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-6 lg:max-w-none lg:grid-cols-2 lg:gap-y-6 ">
               {frontend.map((frontend) => (
                 <div key={frontend.name} className="relative pl-16">
                   <dt className="text-base font-semibold leading-7">
@@ -108,9 +155,7 @@ export default function Skills() {
             className="mt-10 max-w-2xl sm:mt-10 lg:mt-10 lg:max-w-4xl bg-base-200 ring-2 ring-base-300 rounded-2xl p-5 shadow-xl"
             data-aos="zoom-in"
           >
-            <p className="text-2xl text-center font-bold mb-6">
-              Backend Development
-            </p>
+            <p className="text-2xl text-center font-bold mb-6">Other </p>
             <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-6 lg:max-w-none lg:grid-cols-2 lg:gap-y-6">
               {backend.map((backend) => (
                 <div key={backend.name} className="relative pl-16">

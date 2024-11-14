@@ -6,6 +6,23 @@ export default function Contact() {
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
+
+  // Function to collect form data
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    const firstName = event.target["first-name"].value;
+    const lastName = event.target["last-name"].value;
+    const email = event.target["email"].value;
+    const message = event.target["message"].value;
+
+    // Create a mailto link with the form data
+    const mailtoLink = `mailto:romankhan03346869717@gmail.com?subject=Contact%20Form%20Submission&body=First%20Name:%20${firstName}%0ALast%20Name:%20${lastName}%0AEmail:%20${email}%0AMessage:%20${message}`;
+
+    // Open the user's default email client with the pre-filled fields
+    window.location.href = mailtoLink;
+  };
+
   return (
     <div className="py-24 sm:py-32" id="contact">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -16,8 +33,7 @@ export default function Contact() {
           </p>
         </div>
         <form
-          action=""
-          method="POST"
+          onSubmit={handleSubmit}
           className="mx-auto mt-16 max-w-xl sm:mt-20"
           data-aos="zoom-in"
         >
