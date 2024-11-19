@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/MuhammadRomanKhan717.github.io/portfolio/static/css/main.2c5b0b5e.css",
-    "main.js": "/MuhammadRomanKhan717.github.io/portfolio/static/js/main.e2805549.js",
-    "static/media/avatar.png": "/MuhammadRomanKhan717.github.io/portfolio/static/media/avatar.d5635169930840d7d54c.png",
-    "static/media/aboutLogo.png": "/MuhammadRomanKhan717.github.io/portfolio/static/media/aboutLogo.6cd1a8266f2aab009619.png",
-    "static/media/vipWholesale.png": "/MuhammadRomanKhan717.github.io/portfolio/static/media/vipWholesale.06448a5cb4247ff063a1.png",
-    "static/media/plusone.png": "/MuhammadRomanKhan717.github.io/portfolio/static/media/plusone.4a66bf2341b88536ea61.png",
-    "static/media/myBookApp.png": "/MuhammadRomanKhan717.github.io/portfolio/static/media/myBookApp.ee693f34ef3b94fff3a6.png",
-    "static/media/olgaMusic.png": "/MuhammadRomanKhan717.github.io/portfolio/static/media/olgaMusic.a46e857a4d039e9cdfc5.png",
-    "static/media/tejara.png": "/MuhammadRomanKhan717.github.io/portfolio/static/media/tejara.51a1fe221835f15bd60b.png",
-    "index.html": "/MuhammadRomanKhan717.github.io/portfolio/index.html",
-    "main.2c5b0b5e.css.map": "/MuhammadRomanKhan717.github.io/portfolio/static/css/main.2c5b0b5e.css.map",
-    "main.e2805549.js.map": "/MuhammadRomanKhan717.github.io/portfolio/static/js/main.e2805549.js.map"
+    "main.css": "/portfolio/static/css/main.2c5b0b5e.css",
+    "main.js": "/portfolio/static/js/main.f4ccdbdf.js",
+    "static/media/avatar.png": "/portfolio/static/media/avatar.d5635169930840d7d54c.png",
+    "static/media/aboutLogo.png": "/portfolio/static/media/aboutLogo.6cd1a8266f2aab009619.png",
+    "static/media/vipWholesale.png": "/portfolio/static/media/vipWholesale.06448a5cb4247ff063a1.png",
+    "static/media/plusone.png": "/portfolio/static/media/plusone.4a66bf2341b88536ea61.png",
+    "static/media/myBookApp.png": "/portfolio/static/media/myBookApp.ee693f34ef3b94fff3a6.png",
+    "static/media/olgaMusic.png": "/portfolio/static/media/olgaMusic.a46e857a4d039e9cdfc5.png",
+    "static/media/tejara.png": "/portfolio/static/media/tejara.51a1fe221835f15bd60b.png",
+    "index.html": "/portfolio/index.html",
+    "main.2c5b0b5e.css.map": "/portfolio/static/css/main.2c5b0b5e.css.map",
+    "main.f4ccdbdf.js.map": "/portfolio/static/js/main.f4ccdbdf.js.map"
   },
   "entrypoints": [
     "static/css/main.2c5b0b5e.css",
-    "static/js/main.e2805549.js"
+    "static/js/main.f4ccdbdf.js"
   ]
 }
