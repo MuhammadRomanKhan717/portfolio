@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2c5b0b5e.css",
-    "main.js": "/portfolio/static/js/main.f4ccdbdf.js",
+    "main.css": "/portfolio/static/css/main.e59bb935.css",
+    "main.js": "/portfolio/static/js/main.bc311bd6.js",
     "static/media/avatar.png": "/portfolio/static/media/avatar.d5635169930840d7d54c.png",
     "static/media/aboutLogo.png": "/portfolio/static/media/aboutLogo.6cd1a8266f2aab009619.png",
     "static/media/vipWholesale.png": "/portfolio/static/media/vipWholesale.06448a5cb4247ff063a1.png",
@@ -10,11 +10,11 @@
     "static/media/olgaMusic.png": "/portfolio/static/media/olgaMusic.a46e857a4d039e9cdfc5.png",
     "static/media/tejara.png": "/portfolio/static/media/tejara.51a1fe221835f15bd60b.png",
     "index.html": "/portfolio/index.html",
-    "main.2c5b0b5e.css.map": "/portfolio/static/css/main.2c5b0b5e.css.map",
-    "main.f4ccdbdf.js.map": "/portfolio/static/js/main.f4ccdbdf.js.map"
+    "main.e59bb935.css.map": "/portfolio/static/css/main.e59bb935.css.map",
+    "main.bc311bd6.js.map": "/portfolio/static/js/main.bc311bd6.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c5b0b5e.css",
-    "static/js/main.f4ccdbdf.js"
+    "static/css/main.e59bb935.css",
+    "static/js/main.bc311bd6.js"
   ]
 }
