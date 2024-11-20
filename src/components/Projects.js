@@ -36,7 +36,7 @@ const projects = [
     name: "The Budget Bible",
     href: "https://www.thebudgetbible.com/",
     imageSrc: require("../../src/projectsImage/budget.png"),
-    used: "React Native, JavaScript,",
+    used: "React Native Expo, JavaScript,",
     description:
       "Track expenses, set budgets, and reach financial goals effortlessly with Budget Bible.",
   },
@@ -45,7 +45,7 @@ const projects = [
     name: "My books App",
     href: "https://github.com/MuhammadRomanKhan717/My-Book-App",
     imageSrc: require("../../src/projectsImage/myBookApp.png"),
-    used: "React Native, JavaScript",
+    used: "React Native Expo, JavaScript",
     description:
       "I have experience with a book app that facilitates online book purchases.",
   },

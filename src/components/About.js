@@ -6,6 +6,7 @@ import {
   AcademicCapIcon,
   BriefcaseIcon,
 } from "@heroicons/react/20/solid";
+import aboutLogo from "../projectsImage/aboutLogo.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 const features = [
@@ -64,7 +65,7 @@ export default function About() {
         >
           <img
             className="w-[38rem] ring-2 ring-base-300 max-w-none rounded-xl shadow-xl sm:w-[57rem]"
-            src="https://fastly.picsum.photos/id/473/5000/3333.jpg?hmac=OrrE0aUqLbLCJ9PAlSn0dIRHjOnuuuev9IjuO3PGZf8"
+            src={aboutLogo}
             alt="Person"
           />
         </div>
