@@ -69,7 +69,7 @@ export default function Hero() {
               </Link>
             ))}
             <a
-              href={`${process.env.PUBLIC_URL}/My_CV_M_Roman.pdf`}
+              href={`${process.env.PUBLIC_URL}/cv-Roman.pdf`}
               download="M.Roman_Khan_CV.pdf"
               className="text-sm font-semibold leading-6 cursor-pointer btn-outline btn-ghost flex px-4 rounded-2xl absolute right-20"
             >
@@ -136,7 +136,7 @@ export default function Hero() {
                     </Link>
                   ))}
                   <a
-                    href={`${process.env.PUBLIC_URL}/My_CV_M_Roman.pdf`}
+                    href={`${process.env.PUBLIC_URL}/cv-Roman.pdf`}
                     download="M.Roman_Khan_CV.pdf"
                     className="-mx-3 block rounded-lg px-3 py-2 font-semibold leading-7 btn btn-ghost"
                   >
