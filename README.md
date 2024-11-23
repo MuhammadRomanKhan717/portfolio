@@ -7,10 +7,11 @@ This repository is home to a simple, fully functional React portfolio website de
 - Understand basic React components and state management.
 
 
-![3-devices-black](https://github.com/sohomofficial/react-portfolio/assets/93909798/1bb8d209-1a2e-4aa5-ab8e-ff6fb93a7a1e)
+![3-devices-black](https://github.com/user-attachments/assets/8ebb69f0-be98-49d8-839b-b66ea2bcc325)
 ## Features
 
-- Light/dark mode toggle
+
+
 - Smooth Scrolling
 - Scroll Animations
 - Responsiveness
@@ -22,7 +23,7 @@ This repository is home to a simple, fully functional React portfolio website de
 Clone the project
 
 ```bash
-  git clone https://github.com/sohomofficial/react-portfolio.git
+  git clone https://github.com/sohomofficial/react-portfolio.git](https://github.com/MuhammadRomanKhan717/portfolio.git
 ```
 
 Go to the project directory
