@@ -23,7 +23,7 @@ This repository is home to a simple, fully functional React portfolio website de
 Clone the project
 
 ```bash
-  git clone https://github.com/sohomofficial/react-portfolio.git](https://github.com/MuhammadRomanKhan717/portfolio.git
+  git clone https://github.com/MuhammadRomanKhan717/portfolio.git
 ```
 
 Go to the project directory
