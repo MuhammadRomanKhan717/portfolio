@@ -46,10 +46,24 @@ Start the server
 
 <h1 align="center">How to Publish a React App</h1>
 
-This guide provides step-by-step instructions to deploy a React app to a live server using popular platforms.
+This guide provides step-by-step instructions on how to deploy a React app to a live server using popular platforms.
 
 ---
+## steps to create the repo
+### Steps to Create a GitHub Repository
+1. Log in to your GitHub account.
+2. Click the green "New" button on the top-left.
+3. Fill in the details:
+   *  Repository Name: Enter a unique name for your repository
+   * Description (optional): Add a short description of your project.
+   * Visibility: Choose Public (visible to everyone) or Private (only you and collaborators can see).
+     
+4. Click "Create Repository".  
+## or  
+Go to this [guide](https://docs.github.com/en/pages/quickstart) to learn all the steps on how to create a repository and set up a GitHub page.
 
+
+   
 ## Steps to Publish
 
 ### Step 1: Build the App for Production
@@ -67,9 +81,9 @@ Install the `gh-pages` package as a development dependency:
 npm install gh-pages --save-dev
 ```
 ## Step 2: Add Deployment Scripts
-### add homepage in the gitHub page links in pachage.json
+### add the homepage in the GitHub page links in pachage.json
 ```bash
-"homepage": "https://Your_userName.github.io/repo_name",
+"homepage": "https://Your_userName.github.io/YourRepo_name",
 ```
 ### Update your package.json file to include the following scripts:
 
