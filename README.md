@@ -46,7 +46,7 @@ Start the server
 
 <h1 align="center">How to Publish a React App</h1>
 
-This guide provides step-by-step instructions on how to deploy a React app to a live server using popular platforms.
+This guide provides step-by-step instructions on deploying a React app to a live server using popular platforms.
 
 ---
 ## steps to create the repo
@@ -60,7 +60,7 @@ This guide provides step-by-step instructions on how to deploy a React app to a 
      
 4. Click "Create Repository".  
 ## or  
-Go to this [guide](https://docs.github.com/en/pages/quickstart) to learn all the steps on how to create a repository and set up a GitHub page.
+Go to this [guide](https://docs.github.com/en/pages/quickstart) to learn all the steps for creating a repository and setting up a GitHub page.
 
 
    
